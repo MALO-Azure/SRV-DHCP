@@ -1,3 +1,3 @@
-# Automatisation du déploiement de VMs sur Azure
+# virtual_machines
 
-Code pour automatiser le déploiement de machines virtuelles sur Azure.
+Repository pour déployer automatiquement les VMs de l'organisation.
