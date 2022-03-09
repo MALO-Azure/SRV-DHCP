@@ -8,7 +8,7 @@
             "type": "Microsoft.Compute/virtualMachines",
             "apiVersion": "2018-10-01",
             "name": "logistic-webserver",
-            "location": "northeurope",
+            "location": "centralus",
             "tags": {
                 "logistic": ""
             },
