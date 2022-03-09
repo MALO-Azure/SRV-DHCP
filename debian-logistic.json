@@ -32,7 +32,6 @@
                             "storageAccountType": "Standard_LRS",
                             "id": "/subscriptions/50219ffe-7246-47fd-8826-0384581c80a9/resourceGroups/NetStack/providers/Microsoft.Compute/disks/logistic-webserver_OsDisk_1_1ccedd8e3d364ec9b0740b0bf00e074f"
                         },
-                        "deleteOption": "Delete",
                         "diskSizeGB": 30
                     },
                     "dataDisks": []
