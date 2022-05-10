@@ -2,79 +2,26 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "location": {
-            "value": "northeurope"
+        "extensions_Microsoft_Insights_VMDiagnosticsSettings_xmlCfg": {
+            "value": null
         },
-        "networkInterfaceName": {
-            "value": "debian-logistic554"
+        "extensions_Microsoft_Insights_VMDiagnosticsSettings_storageAccountName": {
+            "value": null
         },
-        "networkSecurityGroupName": {
-            "value": "debian-logistic-nsg"
+        "extensions_Microsoft_Insights_VMDiagnosticsSettings_storageAccountKey": {
+            "value": null
         },
-        "networkSecurityGroupRules": {
-            "value": [
-                {
-                    "name": "SSH",
-                    "properties": {
-                        "priority": 300,
-                        "protocol": "TCP",
-                        "access": "Allow",
-                        "direction": "Inbound",
-                        "sourceAddressPrefix": "*",
-                        "sourcePortRange": "*",
-                        "destinationAddressPrefix": "*",
-                        "destinationPortRange": "22"
-                    }
-                }
-            ]
+        "extensions_Microsoft_Insights_VMDiagnosticsSettings_storageAccountEndPoint": {
+            "value": null
         },
-        "subnetName": {
-            "value": "default"
+        "virtualMachines_SRV_DHCP_name": {
+            "value": null
         },
-        "virtualNetworkName": {
-            "value": "NetStack-vnet"
+        "disks_SRV_DHCP_OsDisk_1_61d26f00fce64a45b318a1ff9f59eebd_externalid": {
+            "value": null
         },
-        "addressPrefixes": {
-            "value": [
-                "10.0.0.0/16"
-            ]
-        },
-        "subnets": {
-            "value": [
-                {
-                    "name": "default",
-                    "properties": {
-                        "addressPrefix": "10.0.0.0/24"
-                    }
-                }
-            ]
-        },
-        "virtualMachineName": {
-            "value": "debian-logistic"
-        },
-        "virtualMachineComputerName": {
-            "value": "debian-logistic"
-        },
-        "virtualMachineRG": {
-            "value": "NetStack"
-        },
-        "osDiskType": {
-            "value": "StandardSSD_LRS"
-        },
-        "osDiskDeleteOption": {
-            "value": "Delete"
-        },
-        "virtualMachineSize": {
-            "value": "Standard_D2as_v4"
-        },
-        "nicDeleteOption": {
-            "value": "Detach"
-        },
-        "adminUsername": {
-            "value": "hadrien"
-        },
-        "adminPassword": {
-            "value": "Gotchasama66550@"
+        "networkInterfaces_srv_dhcp160_externalid": {
+            "value": null
         }
     }
 }
