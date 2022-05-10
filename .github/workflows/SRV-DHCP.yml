@@ -26,5 +26,5 @@ jobs:
           scope: resourcegroup
           subscriptionId: ${{ env.AZURE_SUBSCRIPTION_ID }}
           resourceGroupName: ${{ env.AZURE_RESOURCE_GROUP }}
-          template: ./debian-logistic.json
+          template: ./template.json
           parameters: ./parameters.json
